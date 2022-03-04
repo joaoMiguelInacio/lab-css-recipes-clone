@@ -1,9 +1,83 @@
-/*Some necessary adjustments*/
-h1, body, html, main {
-  margin: 0;
+*{
+  padding: 0;
+  margin:0;
 }
-/*Import the font and set the default size*/
-html {
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Poppins:wght@100;400;500&display=swap');
+
+body {
   font-family: 'Open Sans', sans-serif;
-  font-size: 18px
+}
+
+.section1 h1 {
+  font-size: xxx-large;
+  font-weight: lighter;
+}
+
+.section1 {
+  background-image: url("../images/soup.jpg");
+  background-position: 0,0;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  min-height: 500px;
+  color: white;
+  display:flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+}
+
+.section2 {
+  margin: 50px 50px 50px 50px;
+  text-align: justify;
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  border-bottom: 2px rgba(70, 64, 64, 0.192) solid;
+}
+
+.section2 img{
+  height: 60px;
+  width: auto;
+  place-self: center;
+  padding: 10px;
+}
+
+.section3 {
+  margin: 50px 50px 50px 50px;
+  text-align: justify;
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  border-bottom: 2px rgba(70, 64, 64, 0.192) solid;
+}
+
+.section3 h2{
+  padding-bottom: 15px;
+  
+}
+
+.section3 li{
+  list-style: none;
+  text-indent: 15px;
+}
+.section3 img{
+  height: 60px;
+  width: 100;
+  place-self: center;
+  padding: 10px;
+}
+
+.section4{
+  margin: 50px 50px 50px 50px;    
+}
+
+.section4 h2{
+  padding-bottom: 15px;
+}
+
+.section4 li{
+  list-style: none;
+  padding: 0px 15px 0 15px;
+  text-align: justify;
 }
